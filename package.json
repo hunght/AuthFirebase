@@ -9,7 +9,9 @@
   "dependencies": {
     "react": "16.2.0",
     "react-native": "0.52.0",
-    "react-native-firebase": "^3.2.2"
+    "react-native-firebase": "^3.2.2",
+    "react-native-phone-input": "^0.1.10",
+    "react-navigation": "^1.0.0-beta.26"
   },
   "devDependencies": {
     "babel-jest": "22.0.6",

@@ -2,6 +2,8 @@
 # platform :ios, '9.0'
 
 target 'AuthFirebase' do
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
@@ -19,15 +21,3 @@ target 'AuthFirebase' do
 
 end
 
-target 'AuthFirebase-tvOS' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for AuthFirebase-tvOS
-
-  target 'AuthFirebase-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
