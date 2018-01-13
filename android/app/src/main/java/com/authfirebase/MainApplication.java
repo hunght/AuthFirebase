@@ -23,10 +23,11 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      new RNFirebaseAuthPackage();
+      
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNFirebasePackage()
+            new RNFirebasePackage(),
+            new RNFirebaseAuthPackage()
       );
     }
 
