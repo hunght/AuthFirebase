@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AuthFirebase' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AuthFirebase
+
+  target 'AuthFirebase-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AuthFirebaseTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'AuthFirebase-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AuthFirebase-tvOS
+
+  target 'AuthFirebase-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
