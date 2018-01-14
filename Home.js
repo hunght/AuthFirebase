@@ -11,7 +11,8 @@ import {
   Text,
   TextInput,
   View,
-  Button
+  Button,
+  Alert
 } from 'react-native';
 import firebase from 'react-native-firebase';
 
