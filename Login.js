@@ -45,7 +45,7 @@ export default class App extends Component<{}> {
             case firebase.auth.PhoneAuthState.ERROR: // or 'error'
               console.log('verification error');
               this.setState({
-                textLog: 'verification error'
+                textLog: phoneAuthSnapshot.error
               });
               console.log(phoneAuthSnapshot.error);
               break;
